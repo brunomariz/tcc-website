@@ -1,0 +1,1 @@
+docker run -d -it --rm -p 3000:3000 --name tcc-dev -v $PWD:/app tcc-dev
