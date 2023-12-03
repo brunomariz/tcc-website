@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("font/NotoSansMono-Regular.ttf");
+  src: url("_font/NotoSansMono-Regular.ttf");
 }
 
 body {
@@ -19,5 +19,5 @@ h1 {
 }
 
 .capa {
-  @apply text-center;
+  @apply text-center bg-white min-h-screen;
 }
