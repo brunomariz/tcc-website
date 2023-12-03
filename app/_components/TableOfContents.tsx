@@ -9,7 +9,7 @@ function TableOfContents({ sections }: Props) {
     <>
       <ol>
         {sections?.map((section, index) => (
-          <li>
+          <li key={index}>
             <a href={`#${section}`} key={index}>
               {section}
             </a>
