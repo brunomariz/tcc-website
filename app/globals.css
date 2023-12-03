@@ -9,13 +9,29 @@
   src: url("_font/NotoSansMono-Regular.ttf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
+p {
+  @apply py-2 text-justify;
+}
+
 h1 {
   @apply text-base;
+}
+
+h2 {
+  @apply flex w-full justify-center p-8 pt-12;
+}
+
+ol {
+  @apply list-decimal list-inside;
 }
 
 .capa {

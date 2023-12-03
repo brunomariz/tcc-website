@@ -1,16 +1,22 @@
 import React from "react";
 
-type Props = {};
+type Props = {
+  sections: string[] | undefined;
+};
 
-function TableOfContents({}: Props) {
+function TableOfContents({ sections }: Props) {
   return (
-    <div>
+    <>
       <ol>
-        <li>
-          <a href="#">Teste</a>
-        </li>
+        {sections?.map((section, index) => (
+          <li>
+            <a href={`#${section}`} key={index}>
+              {section}
+            </a>
+          </li>
+        ))}
       </ol>
-    </div>
+    </>
   );
 }
 
