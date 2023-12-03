@@ -24,14 +24,14 @@ function Capa({}: Props) {
         </div>
       </div>
       <div className="py-12">
+        <p>Orientador: Prof. Dr. Ricardo Nakamura</p>
+      </div>
+      <div className="flex-col w-full items-start py-12">
         <p>Universidade de São Paulo - USP</p>
         <p>Escola Politécnica</p>
         <p>
           Departamento de Engenharia de Computação e Sistemas Digitais (PCS)
         </p>
-      </div>
-      <div className="py-12">
-        <p>Orientador: Prof. Dr. Ricardo Nakamura</p>
       </div>
       <div className="flex w-full justify-start">
         <p>São Paulo, SP 2023</p>

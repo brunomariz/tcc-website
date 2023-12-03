@@ -35,5 +35,5 @@ ol {
 }
 
 .capa {
-  @apply text-center bg-white min-h-screen;
+  @apply text-center bg-white min-h-screen flex flex-col items-center;
 }
