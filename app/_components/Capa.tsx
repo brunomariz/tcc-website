@@ -20,10 +20,10 @@ function Capa({}: Props) {
         </h1>
       </div>
       <div className="py-12">
-        <p className="text-center">por</p>
-        <p className="text-center">Bernardo Coutinho</p>
-        <p className="text-center">Bruno Mariz</p>
-        <p className="text-center">Vinicius Ariel</p>
+        <p className="text-center p-0">por</p>
+        <p className="text-center p-0">Bernardo Coutinho</p>
+        <p className="text-center p-0">Bruno Mariz</p>
+        <p className="text-center p-0">Vinicius Ariel</p>
       </div>
       <div className="py-12 flex w-full justify-end">
         <div className="sm:mx-16 m-12 w-1/2 text-justify">
