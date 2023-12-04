@@ -11,7 +11,10 @@ function TableOfContents({ sections }: Props) {
       <div className="flex w-full justify-center">SUMÁRIO</div>
       <ul>
         {sections?.map((section, index) => (
-          <li key={index}>
+          <li
+            key={index}
+            style={{ paddingLeft: `${(section.level - 2) * 2}rem` }}
+          >
             <a href={`#${section.id}`} key={index}>
               {section.text}
             </a>

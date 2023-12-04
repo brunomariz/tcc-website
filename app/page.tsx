@@ -5,6 +5,8 @@ import Introducao from "./_components/sections/Introducao";
 import { stringify } from "querystring";
 import { SectionInfo } from "./_types/sectionInfo";
 import TableOfContents from "./_components/TableOfContents";
+import EfeitosProduzidos from "./_components/sections/EfeitosProduzidos";
+import InstalacaoEUtilizacao from "./_components/sections/InstalacaoEUtilizacao";
 
 export default function Home() {
   const [sections, setSections] = useState<SectionInfo[]>();
@@ -29,6 +31,8 @@ export default function Home() {
       <TableOfContents sections={sections}></TableOfContents>
       <hr />
       <Introducao></Introducao>
+      <EfeitosProduzidos></EfeitosProduzidos>
+      <InstalacaoEUtilizacao></InstalacaoEUtilizacao>
     </main>
   );
 }
