@@ -6,6 +6,10 @@ function InstalacaoEUtilizacao({}: Props) {
   return (
     <>
       <h2>3. Instalação e Utilização</h2>
+      <video loop autoPlay muted>
+        <source src="https://imgur.com/2raM2S8.mp4" type="video/mp4" />
+        Your browser does not support HTML video.
+      </video>
       <p>
         O Plugin que implementa este Asset Pack necessita que seja instalado em
         um projeto para Unreal Engine 5.1 (ou mais recente) configurado para
