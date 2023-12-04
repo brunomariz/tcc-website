@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="pt">
       {/* <body className={inter.className}>{children}</body> */}
       <body className="font-noto flex flex-col items-center justify-between sm:w-3/4 w-full max-w-3xl bg-gray-100">
-        <div className="bg-white p-2 py-10">{children}</div>
+        <div className="bg-white p-2 pb-10">{children}</div>
       </body>
     </html>
   );

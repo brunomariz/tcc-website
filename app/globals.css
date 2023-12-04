@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("_font/NotoSansMono-Regular.ttf");
+  src: url("_assets/_font/NotoSansMono-Regular.ttf");
 }
 
 html {
@@ -16,6 +16,10 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+a {
+  @apply underline underline-offset-2 text-[#0d6efd];
 }
 
 p {
