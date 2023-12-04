@@ -1,22 +1,24 @@
 import React from "react";
+import { SectionInfo } from "../_types/sectionInfo";
 
 type Props = {
-  sections: string[] | undefined;
+  sections: SectionInfo[] | undefined;
 };
 
 function TableOfContents({ sections }: Props) {
   return (
-    <>
-      <ol>
+    <div className="p-24">
+      <div className="flex w-full justify-center">SUMÁRIO</div>
+      <ul>
         {sections?.map((section, index) => (
           <li key={index}>
-            <a href={`#${section}`} key={index}>
-              {section}
+            <a href={`#${section.id}`} key={index}>
+              {section.text}
             </a>
           </li>
         ))}
-      </ol>
-    </>
+      </ul>
+    </div>
   );
 }
 

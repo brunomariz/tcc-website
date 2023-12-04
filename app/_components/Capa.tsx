@@ -11,13 +11,13 @@ function Capa({}: Props) {
         </h1>
       </div>
       <div className="py-12">
-        <p>por</p>
-        <p>Bernardo Coutinho</p>
-        <p>Bruno Mariz</p>
-        <p>Vinicius Ariel</p>
+        <p className="text-center">por</p>
+        <p className="text-center">Bernardo Coutinho</p>
+        <p className="text-center">Bruno Mariz</p>
+        <p className="text-center">Vinicius Ariel</p>
       </div>
       <div className="py-12 flex w-full justify-end">
-        <div className="mx-16 w-1/2 text-justify">
+        <div className="sm:mx-16 m-12 w-1/2 text-justify">
           Trabalho de conclusão de curso apresentado ao Departamento de
           Engenharia de Computação e Sistemas Digitais da Escola Politécnica da
           Universidade de São Paulo para obtenção do Título de Engenheiro.

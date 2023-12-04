@@ -19,15 +19,19 @@ body {
 }
 
 p {
-  @apply py-2 text-justify;
+  @apply py-2 text-justify sm:px-12 px-8;
 }
 
 h1 {
-  @apply text-base;
+  @apply text-base uppercase;
 }
 
 h2 {
-  @apply flex w-full justify-center p-8 pt-12;
+  @apply flex w-full justify-center p-8 py-12;
+}
+
+h3 {
+  @apply flex w-full justify-start pt-10 px-8;
 }
 
 ol {
