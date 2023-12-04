@@ -49,9 +49,9 @@ function EfeitosProduzidos({}: Props) {
       <p>
         Procurando reproduzir os efeitos das televisões de tubo CRT, esse efeito
         foi criado para dar um aspecto nostálgico à cena. Ele introduz uma
-        ilusão de curvatura na tela, além de aplicar as "scanlines" (linhas
-        iluminadas diferentemente enquanto o scan de raios catódicos passa pela
-        tela).
+        ilusão de curvatura na tela, além de aplicar as &ldquo;scanlines&rdquo;
+        (linhas iluminadas diferentemente enquanto o scan de raios catódicos
+        passa pela tela).
       </p>
     </>
   );

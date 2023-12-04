@@ -15,13 +15,14 @@ function InstalacaoEUtilizacao({}: Props) {
 
       <p>
         Com essas configurações feitas, basta copiar a pasta PPFree para dentro
-        da pasta "Plugins" do seu projeto. Faça uma nova build do projeto e você
-        poderá ter acesso aos efeitos de pós processamento criados.
+        da pasta &ldquo;Plugins&rdquo; do seu projeto. Faça uma nova build do
+        projeto e você poderá ter acesso aos efeitos de pós processamento
+        criados.
       </p>
 
       <p>
         Caso os Materials não apareçam como opções para serem usadas dentro da
-        Engine, marque a opção "Show Plugin Content" no buscador.
+        Engine, marque a opção &ldquo;Show Plugin Content&rdquo; no buscador.
       </p>
     </>
   );
