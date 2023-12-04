@@ -5,15 +5,6 @@ type Props = {};
 function Capa({}: Props) {
   return (
     <div className="capa">
-      <div className="flex w-full justify-start bg-gray-200 text-sm h-8">
-        <div className="">
-          [
-          <a target="_blank" href="files/monografia.pdf">
-            Baixar monografia completa com referências
-          </a>
-          ]
-        </div>
-      </div>
       <div className="py-12 flex w-full justify-center">
         <h1 className="sm:w-1/2 w-2/3">
           Shaders de pós-processamento visual open-source para Unreal Engine 5
