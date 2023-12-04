@@ -28,6 +28,7 @@ export default function Home() {
   return (
     <main className="">
       <Capa></Capa>
+      <hr />
       <TableOfContents sections={sections}></TableOfContents>
       <hr />
       <Introducao></Introducao>
