@@ -6,20 +6,33 @@ type Props = {
 };
 
 function TableOfContents({ sections }: Props) {
+  const pattern = /.(?=\s)/;
+
   return (
     <div className="p-24">
       <div className="flex w-full justify-center">SUMÁRIO</div>
       <ul>
-        {sections?.map((section, index) => (
-          <li
-            key={index}
-            style={{ paddingLeft: `${(section.level - 2) * 2}rem` }}
-          >
-            <a href={`#${section.id}`} key={index}>
-              {section.text}
-            </a>
-          </li>
-        ))}
+        {sections?.map((section, index) => {
+          let sectionPrefix = "";
+          let sectionSuffix = "";
+          if (section.text.match(pattern)) {
+            sectionPrefix = section.text.split(pattern)[0];
+            sectionSuffix = `. ${section.text.split(pattern)[1]}`;
+          } else {
+            sectionPrefix = section.text;
+          }
+          return (
+            <li
+              key={index}
+              style={{ paddingLeft: `${(section.level - 2) * 2}rem` }}
+            >
+              <a href={`#${section.id}`} key={index}>
+                {sectionPrefix}
+              </a>
+              {sectionSuffix}
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
