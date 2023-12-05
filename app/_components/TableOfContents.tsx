@@ -6,7 +6,8 @@ type Props = {
 };
 
 function TableOfContents({ sections }: Props) {
-  const pattern = /.(?=\s)/;
+  const pattern = /\.(?=\s)/;
+  if (sections) console.log(sections[1].text.split(pattern));
 
   return (
     <div className="p-24">
