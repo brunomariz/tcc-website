@@ -23,7 +23,6 @@ export default function Home() {
     });
     setSections(sections);
   }, []);
-  console.log(sections);
 
   return (
     <main className="">
