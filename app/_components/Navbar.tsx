@@ -21,14 +21,14 @@ function Navbar({}: Props) {
         </div>
         <div>
           [
-          <a target="_blank" href="files/banner.pdf">
+          <a target="_blank" href="files/Banner_PCS3860_COOP_2023_Grupo_C02.pdf">
             Banner
           </a>
           ]
         </div>
         <div>
           [
-          <a target="_blank" href="files/press_release.pdf">
+          <a target="_blank" href="files/Press_Release_PCS3860_COOP_2023_Grupo_C02.pdf">
             Press release
           </a>
           ]
