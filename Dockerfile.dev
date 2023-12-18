@@ -1,3 +1,5 @@
+# sh scripts/build_dev.sh && sh scripts/run_dev.sh
+
 FROM node:latest AS development
 
 # Declaring env
@@ -8,10 +10,6 @@ WORKDIR /app
 
 # Installing dependencies
 COPY ./package.json /app
-RUN npm install
-
-# Copying all the files in our project
-COPY . .
 
 # Starting our application
 CMD npm run dev
