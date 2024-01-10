@@ -35,7 +35,7 @@ function Navbar({}: Props) {
         </div>
         <div>
           [
-          <a target="_blank" href="https://github.com/UnrealVFX/TCC-Demo">
+          <a target="_blank" href="https://github.com/UnrealVFX/UnrealPostProcessingShaders">
             GitHub
           </a>
           ]
